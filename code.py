@@ -1,6 +1,7 @@
 import requests
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import geopandas as gpd
 import matplotlib.pyplot as plt
 from shapely.geometry import Point
