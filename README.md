@@ -6,7 +6,7 @@ This repository contains a data analysis project focused on examining air qualit
 The primary goal of this project is to analyze air quality data from sensor readings across different regions, calculate Air Quality Index (AQI), and identify trends in air quality improvements. Using clustering, we categorize geographical regions based on air quality data, and visually represent findings through histograms and geographical mappings.
 
 ## Features
-1. **Data Acquisition**: Fetches 24-hour air quality data from [Dataset](https://data.sensor.community/static/v2/data.24h.json).
+1. **Data Acquisition**: Fetches 24-hour air quality data from [Dataset](https://data.sensor.community/static/v2/data.24h.json). and averaged data from the last 5 minutes for each sensor from [Testing Dataset](https://data.sensor.community/static/v2/data.json).
 2. **Data Cleaning and Transformation**: Prepares data using PySpark, ensuring correct formats and handling of missing values.
 3. **Air Quality Index (AQI) Calculation**: Computes AQI based on sensor data and classifies regions accordingly.
 4. **Trend Analysis**: Calculates daily AQI and compares trends to highlight improvements in air quality.
