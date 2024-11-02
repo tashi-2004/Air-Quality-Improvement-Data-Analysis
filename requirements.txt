@@ -1,0 +1,7 @@
+requests
+numpy
+pandas
+geopandas
+matplotlib
+shapely
+pyspark
