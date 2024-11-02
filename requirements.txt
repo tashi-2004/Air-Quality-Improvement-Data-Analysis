@@ -6,3 +6,5 @@ matplotlib
 shapely
 pyspark
 seaborn
+geopandas==0.10.2  
+fiona==1.8.20    
