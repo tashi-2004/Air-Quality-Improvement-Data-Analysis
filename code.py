@@ -14,7 +14,6 @@ from pyspark.sql.types import IntegerType, FloatType
 from pyspark.sql.functions import row_number, monotonically_increasing_id
 from pyspark.sql.types import StructType, StructField, StringType, FloatType, ArrayType, IntegerType
 from pyspark.sql.functions import col, explode, when, udf, desc, avg, lag, to_date, count, min as spark_min, max as spark_max
-
 #`````````````````````````````````````````````````````````````````` Spark Session ``````````````````````````````````````````````````````
 spark = SparkSession.builder \
     .appName("Air Quality Improvement Analysis") \
