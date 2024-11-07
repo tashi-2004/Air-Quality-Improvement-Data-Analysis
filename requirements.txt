@@ -3,8 +3,9 @@ numpy
 pandas
 geopandas
 matplotlib
-shapely
+shapely==1.8.0
 pyspark
 seaborn
 geopandas==0.10.2  
 fiona==1.8.20    
+
