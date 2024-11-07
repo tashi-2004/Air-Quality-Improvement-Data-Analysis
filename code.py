@@ -1,17 +1,17 @@
+import shapely
 import requests
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import geopandas as gpd
 import matplotlib.pyplot as plt
-from shapely.geometry import Point
 from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
 from pyspark.sql import functions as F
 from pyspark.ml.clustering import KMeans
-from pyspark.sql.functions import row_number, monotonically_increasing_id
 from pyspark.ml.feature import VectorAssembler
 from pyspark.sql.types import IntegerType, FloatType
+from pyspark.sql.functions import row_number, monotonically_increasing_id
 from pyspark.sql.types import StructType, StructField, StringType, FloatType, ArrayType, IntegerType
 from pyspark.sql.functions import col, explode, when, udf, desc, avg, lag, to_date, count, min as spark_min, max as spark_max
 
