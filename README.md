@@ -15,6 +15,12 @@ The primary goal of this project is to analyze air quality data from sensor read
 
 3. **Code:**
    - `code.py`: This script performs the entire analysis, from data ingestion and preprocessing to visualization and reporting.
+4. **Shapefiles:**
+   - `ne_110m_admin_0_countries.shp`: The geometric data for the countries.
+   - `ne_110m_admin_0_countries.shx`: The index of the geometric data.
+   - `ne_110m_admin_0_countries.dbf`: Attribute data related to the countries (such as names and codes).
+   - `ne_110m_admin_0_countries.prj`: The coordinate reference system for the shapefile.
+   - `ne_110m_admin_0_countries.cpg`: Character encoding information.
      
 ## Features
 1. **Data Acquisition**: Fetches 24-hour air quality data and averaged data from the last 5 minutes for each sensor.
@@ -41,6 +47,8 @@ The primary goal of this project is to analyze air quality data from sensor read
 - **Matplotlib & Seaborn**: For visualizations.
 - **Requests**: For fetching data from APIs.
 - **KMeans Clustering**: For geographical clustering of regions.
+## Note 
+- Whenever you run this project, please ensure that the Shapefiles are kept in the same directory as the `code.py` file for proper execution of geographical visualizations.
 
 ## Contributors
 - Tashfeen Abbasi
