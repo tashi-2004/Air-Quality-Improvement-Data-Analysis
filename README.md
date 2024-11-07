@@ -27,8 +27,10 @@ The primary goal of this project is to analyze air quality data from sensor read
      <img width="975" alt="3" src="https://github.com/user-attachments/assets/68c9e02b-04d1-42fd-b661-c75b6c9be79d">
    - Geographical map displaying air quality data points.
      <img width="975" alt="4" src="https://github.com/user-attachments/assets/5be7e3bb-800c-405b-a84a-d2c1d1de6f82">
-7. **Top Countries and Regions**: Lists top 10 countries and top 50 regions with the best air quality.
+7. **Top Countries and Regions**:
+   - Lists top 10 countries with the best air quality.
      <img width="975" alt="1" src="https://github.com/user-attachments/assets/db640d5d-d70c-4668-a865-44eac9ae7083">
+   - Lists top 50 regions with the best air quality.
      <img width="975" alt="2a" src="https://github.com/user-attachments/assets/dfca5ef1-7ef0-4920-9d85-fb5e0ace4229">
      <img width="975" alt="2b" src="https://github.com/user-attachments/assets/0cd7d0d9-1ab6-4c8d-be6b-71fcc147c107">
 
