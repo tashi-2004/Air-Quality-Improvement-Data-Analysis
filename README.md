@@ -6,7 +6,6 @@ This repository contains a data analysis project focused on examining air qualit
 The primary goal of this project is to analyze air quality data from sensor readings across different regions, calculate Air Quality Index (AQI), and identify trends in air quality improvements. Using clustering, we categorize geographical regions based on air quality data, and visually represent findings through histograms and geographical mappings.
 
 ## Files Included
-
 1. **Datasets:**
    -  Averaged Data from last 24 hours for each sensor: [Visit Here](https://data.sensor.community/static/v2/data.24h.json)
    -  Averaged Data from last 5 minutes for each sensor (for testing): [Visit Here](https://data.sensor.community/static/v2/data.json)
